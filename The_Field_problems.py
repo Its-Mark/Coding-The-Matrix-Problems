@@ -181,10 +181,10 @@ Be sure your procedure works for the empty list.
 ## 9: (Problem 1.7.10) Complex Addition Practice
 # Each answer should be a Python expression whose value is a complex number.
 
-complex_addition_a = ...
-complex_addition_b = ...
-complex_addition_c = ...
-complex_addition_d = ...
+complex_addition_a = (5 + 3j)
+complex_addition_b = (0 + 1j)
+complex_addition_c = (-1 + .001j)
+complex_addition_d = 4 * (0 + 2j) + (.001 + 1j)
 
 
 
