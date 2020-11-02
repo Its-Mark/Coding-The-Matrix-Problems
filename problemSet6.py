@@ -1,6 +1,10 @@
 def my_filter(L, num):
-    for i in range(L.count(num)):
-        L.remove(num)
+    for x in L:
+        print(x)
+        if (x % num == 0):
+            L.pop(x)
+        #if (temp % num == 0):
+            #L.pop(temp)
 
     print(L)
 
@@ -20,8 +24,7 @@ def my_function_composition(f, g):
     return 0
 
 
+my_filter([1, 2, 4, 5, 7], 2)
 
-
-x = [1, 2, 4]
-
-my_lists(x)
+my_lists([0, 3])
+my_lists([1, 2, 4])
